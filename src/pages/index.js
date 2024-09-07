@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import {BiMenu, BiX} from 'react-icons/bi'
-import {Link} from 'next/link'
+import Link from 'next/link'
 const Home = () => {
   const [open, setOpen] = React.useState(true)
   return (
