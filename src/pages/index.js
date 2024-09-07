@@ -8,7 +8,7 @@ const Home = () => {
     {
       open &&
       <div className='bg-black/20 backdrop-blur-xl  w-full h-full flex justify-center items-center fixed top-0 left-1/2 -translate-x-1/2'>
-      <a href='/' className='absolute font-bold left-1/2 -translate-x-1/2 top-0 text-xl mt-12 text-white'>goMuduk</a>
+      <Link href='/' className='absolute font-bold left-1/2 -translate-x-1/2 top-0 text-xl mt-12 text-white'>goMuduk</Link>
       <div className='w-[800px] h-[600px] bg-white rounded-3xl p-8 flex flex-col gap-4'>
       
       <button onClick={() => setOpen(false)} className='flex w-full flex-row-reverse'>
